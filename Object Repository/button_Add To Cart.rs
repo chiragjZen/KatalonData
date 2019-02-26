@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//button[text()='Add To Cart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -41,10 +41,9 @@ WebUI.click(findTestObject('Object Repository/button_Proceed as NTB'))
 
 WebUI.click(findTestObject('Object Repository/a_Add Asset'))
 
-WebUI.selectOptionByLabel(findTestObject('select_--None--2222 Automation'), '8888765 Automation_Shree Nath Electrovision', 
-    true)
+WebUI.focus(findTestObject('select_--None--2222 Automation'))
 
-not_run: WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000QmlcqQAB', true)
+WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000QmlcqQAB', true)
 
 WebUI.setText(findTestObject('Object Repository/input_Model Name_combobox-uniq'), 'Sansui11081936 - OEM Asset Category-11081512 Rs200000')
 
