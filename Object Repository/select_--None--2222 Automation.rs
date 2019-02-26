@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value> //select[@name = 'dealerList']</value>
+         <value>//span[text()='Select Dealer']//following::select[@name='dealerList']</value>
       </entry>
       <entry>
          <key>BASIC</key>

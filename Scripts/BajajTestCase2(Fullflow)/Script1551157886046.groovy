@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uat-pos--uat.cs72.force.com/FOS/login')
 
-WebUI.setText(findTestObject('Page_Login  FOS Community/input_Username_username'), 'AutomationFOS@bfl.com')
+WebUI.setText(findTestObject('input_Username_username'), 'AutomationFOS@bfl.com')
 
 WebUI.setEncryptedText(findTestObject('Page_Login  FOS Community/input_Password_pw'), '3zsWnKN+YWTTdAG8/sekZA==')
 
@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Object Repository/button_Proceed as NTB'))
 WebUI.click(findTestObject('Object Repository/a_Add Asset'))
 
 WebUI.selectOptionByLabel(findTestObject('select_--None--2222 Automation'), '8888765 Automation_Shree Nath Electrovision', 
-    false)
+    true)
 
 not_run: WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000QmlcqQAB', true)
 

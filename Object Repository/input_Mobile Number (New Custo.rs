@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(//label/span[text()='Mobile Number (New Customer)']//following::input)[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'tel' and @id = '400.0']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

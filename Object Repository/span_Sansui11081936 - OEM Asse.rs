@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='listbox-option-unique-id-01']/span[2]/span</value>
+         <value>//select[@name='dealerList']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
