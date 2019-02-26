@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='2352:0']/div/ul/li[3]/a</value>
+         <value>//span[text()='POI Type']//following::a[text()='Aadhaar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

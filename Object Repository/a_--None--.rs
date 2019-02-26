@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='8207:0']/div/div/a</value>
+         <value>//span[text()='POI Type']//following::a[@class='select']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

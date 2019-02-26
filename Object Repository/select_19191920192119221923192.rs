@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='5285:0']</value>
+         <value>//span[text()='Pick a Year']//following::select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='5265:0']/div/div[2]/table/tbody/tr[3]/td[4]/span</value>
+         <value>//span[text()='26']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

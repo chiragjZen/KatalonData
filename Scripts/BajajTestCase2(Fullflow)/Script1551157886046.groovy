@@ -17,7 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://uat-pos--uat.cs72.force.com/FOS/login')
 
-WebUI.setText(findTestObject('input_Username_username'), 'AutomationFOS@bfl.com')
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('input_Username_username'), 'cdprimedealer_fos@bfl.in')
 
 WebUI.setEncryptedText(findTestObject('Page_Login  FOS Community/input_Password_pw'), '3zsWnKN+YWTTdAG8/sekZA==')
 
@@ -25,27 +27,42 @@ WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
 WebUI.click(findTestObject('Object Repository/button_Change Dealer'))
 
-WebUI.selectOptionByValue(findTestObject('span_Sansui11081936 - OEM Asse'), '0015D00000QmlcqQAB', true)
+WebUI.delay(3)
+
+WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000SRSZHQA5', true)
+
+WebUI.delay(3)
+
+WebUI.focus(findTestObject('Object Repository/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8226022019')
+WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8226022018')
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Vanashri')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Vana')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
+
+WebUI.focus(findTestObject('button_Proceed as NTB'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/button_Proceed as NTB'))
 
 WebUI.click(findTestObject('Object Repository/a_Add Asset'))
 
+WebUI.delay(5)
+
 WebUI.focus(findTestObject('select_--None--2222 Automation'))
 
-WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000QmlcqQAB', true)
+WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000SRSZHQA5', true)
+
+not_run: WebUI.selectOptionByLabel(findTestObject('select_--None--2222 Automation'), '8888765 Automation_Shree Nath Electrovision', 
+    false)
 
 WebUI.setText(findTestObject('Object Repository/input_Model Name_combobox-uniq'), 'Sansui11081936 - OEM Asset Category-11081512 Rs200000')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('span_Sansui11081936 - OEM Asse'))
 
@@ -53,7 +70,9 @@ WebUI.setText(findTestObject('Object Repository/input_Invoice Amount_651650a'), 
 
 WebUI.setText(findTestObject('Object Repository/input_Gross Loan Amount_791650'), '150000')
 
-WebUI.setText(findTestObject('Object Repository/input_Scheme Name_combobox-uni'), '0011622')
+WebUI.setText(findTestObject('Object Repository/input_Scheme Name_combobox-uni'), '0011757')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/span_Master_Scheme__c0011622'))
 
@@ -67,23 +86,27 @@ WebUI.click(findTestObject('Object Repository/a_Aadhaar'))
 
 WebUI.setText(findTestObject('Object Repository/input__23710'), 'NA')
 
+WebUI.click(findTestObject('Bypass mobile validate'))
+
 WebUI.setText(findTestObject('Object Repository/input__27080'), '150000')
 
 WebUI.setText(findTestObject('Object Repository/input__30740'), 'Saswadkar')
+
+WebUI.click(findTestObject('DateofBirth'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/select_19191920192119221923192'), '1990', true)
 
 WebUI.click(findTestObject('Object Repository/span_14'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('Marital status'))
 
 WebUI.click(findTestObject('Object Repository/a_Married'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('GenderSelect'))
 
 WebUI.click(findTestObject('Object Repository/a_Female'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('Residence_type'))
 
 WebUI.click(findTestObject('Object Repository/a_Self Owned'))
 
@@ -99,27 +122,31 @@ WebUI.setText(findTestObject('Object Repository/input__34660'), 'Swargate')
 
 WebUI.click(findTestObject('Object Repository/div_443001 BULDHANA'))
 
-WebUI.setText(findTestObject('Object Repository/input_BFL Branch_36200'), '443001')
+WebUI.click(findTestObject('zipcode selection'))
+
+WebUI.setText(findTestObject('Object Repository/input_BFL Branch_36200'), '443001 BULDHANA')
+
+not_run: WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/div_443001-BULDHANA'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('Credit Program'))
 
 WebUI.click(findTestObject('Object Repository/a_1.02 Direct'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('Sourcing Surrogate Info 3'))
 
 WebUI.click(findTestObject('Object Repository/a_Less than Rs. 20000'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('Employement Type'))
 
 WebUI.click(findTestObject('Object Repository/a_Housewife'))
 
-WebUI.click(findTestObject('Object Repository/a_Draft'))
+WebUI.click(findTestObject('Data Entry Status'))
 
 WebUI.click(findTestObject('Object Repository/a_Completed'))
 
-WebUI.click(findTestObject('input_Bypass Mobile Validate_2'))
+not_run: WebUI.click(findTestObject('input_Bypass Mobile Validate_2'))
 
 WebUI.click(findTestObject('span_Save'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@name='dealerList']</value>
+         <value>//span[@title=&quot;Sansui11081936 - OEM Asset Category-11081512 Rs200000&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

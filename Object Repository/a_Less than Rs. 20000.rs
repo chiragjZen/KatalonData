@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='3964:0']/div/ul/li[2]/a</value>
+         <value>//span[text()='Sourcing Surrogate Info 3']//following::a[text()='Less than Rs. 20000']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

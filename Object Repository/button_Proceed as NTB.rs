@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[text()='Proceed to Cart' or text()='Proceed as NTB' ]</value>
+         <value>//div//button[contains(text(),'Proceed as NTB') ]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

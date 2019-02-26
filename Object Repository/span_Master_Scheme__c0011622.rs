@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='listbox-option-unique-id-01']</value>
+         <value>//span[text()='0011757' and @title='0011757']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

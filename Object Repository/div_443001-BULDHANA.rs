@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='1:3433;a']/div[2]/div</value>
+         <value>//div[@title='443001-BULDHANA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

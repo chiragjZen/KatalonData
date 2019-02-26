@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='4620:0']/div/ul/li[2]/a</value>
+         <value>//span[text()='Data Entry Status']//following::a[text()='Completed']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

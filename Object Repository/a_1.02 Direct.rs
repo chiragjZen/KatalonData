@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='3794:0']/div/ul/li[2]/a</value>
+         <value>//span[text()='Credit Program']//following::a[text()='1.02 [Direct]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
