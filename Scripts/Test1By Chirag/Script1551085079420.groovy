@@ -13,3 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.setText(findTestObject('Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'), 'alexa')
+
+WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon'))
+
+WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick', [('Itemtext') : 'Sonos One – Voice Controlled Smart Speaker with Amazon Alexa Built-in (Black)']))
+
+WebUI.click(findTestObject('Object Repository/Page_Customer Chirag/Page_Schlage Z-Wave Connect Camelot/input_149.99_submit.add-to-car'))
+
+WebUI.closeBrowser()
+
