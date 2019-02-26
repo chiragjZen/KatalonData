@@ -25,16 +25,15 @@ WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
 WebUI.click(findTestObject('Object Repository/button_Change Dealer'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/select_--None--2222 Automation (1)'), '0015D00000QmlcqQAB', 
-    true)
+WebUI.selectOptionByValue(findTestObject('span_Sansui11081936 - OEM Asse'), '0015D00000QmlcqQAB', true)
 
 WebUI.click(findTestObject('Object Repository/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('Object Repository/input_Mobile Number (New Custo (1)'), '8226022019')
+WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8226022019')
 
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer (1)'), 'Vanashri')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Vanashri')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
@@ -42,12 +41,14 @@ WebUI.click(findTestObject('Object Repository/button_Proceed as NTB'))
 
 WebUI.click(findTestObject('Object Repository/a_Add Asset'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/select_--None--2222 Automation (2)'), '0015D00000QmlcqQAB', 
-    true)
+WebUI.selectOptionByLabel(findTestObject('select_--None--2222 Automation'), '8888765 Automation_Shree Nath Electrovision', 
+    false)
+
+not_run: WebUI.selectOptionByValue(findTestObject('select_--None--2222 Automation'), '0015D00000QmlcqQAB', true)
 
 WebUI.setText(findTestObject('Object Repository/input_Model Name_combobox-uniq'), 'Sansui11081936 - OEM Asset Category-11081512 Rs200000')
 
-WebUI.click(findTestObject('Object Repository/span_Sansui11081936 - OEM Asse (1)'))
+WebUI.click(findTestObject('span_Sansui11081936 - OEM Asse'))
 
 WebUI.setText(findTestObject('Object Repository/input_Invoice Amount_651650a'), '180000')
 
@@ -59,9 +60,9 @@ WebUI.click(findTestObject('Object Repository/span_Master_Scheme__c0011622'))
 
 WebUI.click(findTestObject('Object Repository/button_Add To Cart'))
 
-WebUI.click(findTestObject('Object Repository/div_Edit (1)'))
+WebUI.click(findTestObject('div_Edit'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Aadhaar'))
 
@@ -75,15 +76,15 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/select_1919192019211
 
 WebUI.click(findTestObject('Object Repository/span_14'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Married'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Female'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Self Owned'))
 
@@ -103,15 +104,15 @@ WebUI.setText(findTestObject('Object Repository/input_BFL Branch_36200'), '44300
 
 WebUI.click(findTestObject('Object Repository/div_443001-BULDHANA'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_1.02 Direct'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Less than Rs. 20000'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Housewife'))
 
@@ -119,9 +120,9 @@ WebUI.click(findTestObject('Object Repository/a_Draft'))
 
 WebUI.click(findTestObject('Object Repository/a_Completed'))
 
-WebUI.click(findTestObject('Object Repository/input_Bypass Mobile Validate_2'))
+WebUI.click(findTestObject('input_Bypass Mobile Validate_2'))
 
-WebUI.click(findTestObject('Object Repository/span_Save (1)'))
+WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/img_Notifications_profileIcon'))
 
@@ -135,17 +136,17 @@ WebUI.setEncryptedText(findTestObject('Page_Login  Salesforce/input_Password_pw'
 
 WebUI.click(findTestObject('Page_Login  Salesforce/input_Password_Login'))
 
-WebUI.setText(findTestObject('Object Repository/input_Select an object to limi (2)'), '8226022019')
+WebUI.setText(findTestObject('input_Select an object to limi'), '8226022019')
 
 WebUI.click(findTestObject('Object Repository/span_8226022019 in Customers'))
 
-WebUI.setText(findTestObject('Object Repository/input_Select an object to limi (3)'), '8226022019')
+WebUI.setText(findTestObject('input_Select an object to limi'), '8226022019')
 
 WebUI.click(findTestObject('Object Repository/a_Vanashri'))
 
 WebUI.getUrl()
 
-WebUI.click(findTestObject('Object Repository/span_Related (1)'))
+WebUI.click(findTestObject('span_Related'))
 
 WebUI.click(findTestObject('Object Repository/a_IR-035021'))
 
@@ -199,29 +200,13 @@ WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('Object Repository/input_Mobile Number (New Custo_15'), '8226022019')
+WebUI.setText(findTestObject('input_First Name (New Customer'), '8226022019')
 
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_10'), 'V')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_11'), 'Va')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_12'), 'Van')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_13'), 'Vana')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_14'), 'Vanas')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_15'), 'Vanash')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_16'), 'Vanashr')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_17'), 'Vanashri')
-
-WebUI.setText(findTestObject('Object Repository/input_First Name (New Customer_18'), 'Vanashri')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Vanashri')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/button_Proceed to Cart (1)'))
+WebUI.click(findTestObject('button_Proceed to Cart'))
 
 WebUI.click(findTestObject('Object Repository/a_Show more actions'))
 
@@ -229,7 +214,7 @@ WebUI.click(findTestObject('Object Repository/a_C KYC'))
 
 WebUI.click(findTestObject('Object Repository/a_No Vehicle'))
 
-WebUI.click(findTestObject('Object Repository/a_No Vehicle_1'))
+WebUI.click(findTestObject('a_No Vehicle'))
 
 WebUI.setText(findTestObject('Object Repository/input__82430'), 'ABC')
 
@@ -245,13 +230,13 @@ WebUI.setText(findTestObject('Object Repository/input__83360'), 'Pune station')
 
 WebUI.click(findTestObject('Object Repository/a_443001 BULDHANA'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Residence'))
 
 WebUI.setText(findTestObject('Object Repository/input__84850'), '020232505')
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (1)'))
+WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_HINDI'))
 
@@ -259,25 +244,25 @@ WebUI.setText(findTestObject('Object Repository/input__85530'), 'VanashriS')
 
 WebUI.setText(findTestObject('Object Repository/input__85800'), '7741975512')
 
-WebUI.click(findTestObject('Object Repository/span_Save (1)'))
+WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_B0203903'))
 
-WebUI.click(findTestObject('Object Repository/a_Show more actions (1)'))
+WebUI.click(findTestObject('a_Show more actions'))
 
 WebUI.click(findTestObject('Object Repository/a_Edit'))
 
 WebUI.click(findTestObject('Object Repository/input_Bypass Extended Warranty'))
 
-WebUI.click(findTestObject('Object Repository/span_Save (2)'))
+WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/button_Mark Stage as Complete'))
 
-WebUI.click(findTestObject('Object Repository/div_Edit (2)'))
+WebUI.click(findTestObject('div_Edit'))
 
 WebUI.click(findTestObject('Object Repository/input_Change ECS Option_282680'))
 
-WebUI.click(findTestObject('Object Repository/a_--None-- (2)'))
+WebUI.click(findTestObject('a_--None--'))
 
 WebUI.click(findTestObject('Object Repository/a_Savings'))
 
@@ -287,7 +272,7 @@ WebUI.click(findTestObject('Object Repository/div_HDFC0000007 HDFC'))
 
 WebUI.setText(findTestObject('Object Repository/input_Bank Account Number_2841'), '456798765423')
 
-WebUI.click(findTestObject('Object Repository/span_Save (2)'))
+WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/span_Document Lib'))
 
@@ -295,11 +280,11 @@ WebUI.click(findTestObject('Object Repository/input_Contact_1113641a'))
 
 WebUI.click(findTestObject('Object Repository/span_Upload Files'))
 
-WebUI.click(findTestObject('Object Repository/button_Save (2)'))
+WebUI.click(findTestObject('button_Save'))
 
 WebUI.click(findTestObject('Object Repository/span_Mark Stage as Complete'))
 
-WebUI.click(findTestObject('Object Repository/img_Notifications_profileIcon (1)'))
+WebUI.click(findTestObject('img_Notifications_profileIcon'))
 
-WebUI.click(findTestObject('Object Repository/a_Logout (1)'))
+WebUI.click(findTestObject('a_Logout'))
 
