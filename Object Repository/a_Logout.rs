@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Logout')]</value>
+         <value>//a[text()='Logout']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

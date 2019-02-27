@@ -39,9 +39,9 @@ WebUI.click(findTestObject('Object Repository/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8226022018')
+WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8227022018')
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Vana')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Cheerag')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
@@ -90,11 +90,11 @@ WebUI.click(findTestObject('Bypass mobile validate'))
 
 WebUI.setText(findTestObject('Object Repository/input__27080'), '150000')
 
-WebUI.setText(findTestObject('Object Repository/input__30740'), 'Saswadkar')
+WebUI.setText(findTestObject('Object Repository/input__30740'), 'Jain')
 
 WebUI.click(findTestObject('DateofBirth'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/select_19191920192119221923192'), '1990', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/select_19191920192119221923192'), '1991', true)
 
 WebUI.click(findTestObject('Object Repository/span_14'))
 
@@ -126,7 +126,7 @@ WebUI.click(findTestObject('zipcode selection'))
 
 WebUI.setText(findTestObject('Object Repository/input_BFL Branch_36200'), '443001 BULDHANA')
 
-not_run: WebUI.delay(2)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/div_443001-BULDHANA'))
 
@@ -149,6 +149,10 @@ WebUI.click(findTestObject('Object Repository/a_Completed'))
 not_run: WebUI.click(findTestObject('input_Bypass Mobile Validate_2'))
 
 WebUI.click(findTestObject('span_Save'))
+
+WebUI.delay(2)
+
+WebUI.focus(findTestObject('img_Notifications_profileIcon'))
 
 WebUI.click(findTestObject('Object Repository/img_Notifications_profileIcon'))
 
