@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -21,9 +22,9 @@ WebUI.setText(findTestObject('Page_Customer Chirag/Page_Amazon.com Online Shoppi
 
 WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon'))
 
-WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick', [('Itemtext') : 'Sonos One – Voice Controlled Smart Speaker with Amazon Alexa Built-in (Black)']))
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.click(findTestObject('Object Repository/Page_Customer Chirag/Page_Schlage Z-Wave Connect Camelot/input_149.99_submit.add-to-car'))
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 
