@@ -54,6 +54,8 @@ WebUI.switchToWindowTitle('Execute Anonymous')
 
 WebUI.delay(10)
 
+WebUI.clearText(findTestObject('devconsole_div'))
+
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'a'))
 
 WebUI.delay(10)
