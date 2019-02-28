@@ -30,5 +30,11 @@
          <value>SearchInput</value>
          <variableId>ed97ebb0-b61c-4416-889e-22fa9dbc7622</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9218dc51-db95-43d6-ba01-abc1de4fea16</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

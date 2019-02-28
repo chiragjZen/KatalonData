@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>Input</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9218dc51-db95-43d6-ba01-abc1de4fea16</id>
+      <masked>false</masked>
+      <name>ItemText</name>
+   </variable>
 </TestCaseEntity>
