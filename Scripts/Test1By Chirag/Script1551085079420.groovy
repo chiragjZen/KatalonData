@@ -33,12 +33,14 @@ WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/SearchIco
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'a'))
 
 //WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick'))
-itemlink=WebUI.modifyObjectProperty(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick'), 'data-attribute', 'equals', findTestData('First Test/1st').getValue(
-            2, 1), true)
+itemlink = WebUI.modifyObjectProperty(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick'), 'data-attribute', 
+    'equals', findTestData('First Test/1st').getValue(2, 1), true)
 
 WebUI.click(itemlink)
 
 WebUI.delay(5)
+
+WebUI.clearText(findTestObject(null))
 
 WebUI.closeBrowser()
 
