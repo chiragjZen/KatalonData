@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -39,9 +40,9 @@ WebUI.click(findTestObject('Object Repository/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8625022023')
+WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8625022024')
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Saayaleee')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Alia')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
@@ -202,9 +203,9 @@ WebUI.focus(findTestObject('Integrated Response'))
 
 WebUI.click(findTestObject('Integrated Response'))
 
-WebUI.waitForElementVisible(findTestObject('div_Edit'), 60)
+WebUI.waitForElementVisible(findTestObject('div_Edit2'), 60)
 
-WebUI.click(findTestObject('div_Edit'))
+WebUI.click(findTestObject('div_Edit2'))
 
 WebUI.click(findTestObject('CIBIL Match'))
 
@@ -224,15 +225,21 @@ WebUI.click(findTestObject('CIBIL_StatusMatch'))
 
 WebUI.click(findTestObject('span_Save2'))
 
+WebUI.delay(6)
+
 WebUI.waitForElementVisible(findTestObject('div_Setup'), 60)
 
 WebUI.click(findTestObject('div_Setup'))
 
 WebUI.click(findTestObject('span_Developer Console'))
 
+WebUI.delay(6)
+
 WebUI.switchToWindowTitle('Developer Console')
 
-WebUI.sendKeys(findTestObject('dev_Console'), Keys.chord(Keys.CONTROL, 'e'))
+WebUI.maximizeWindow()
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'e'))
 
 WebUI.click(findTestObject('Page_Developer Console/span_OK'))
 
@@ -260,9 +267,9 @@ WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), '8625022023')
+WebUI.setText(findTestObject('input_First Name (New Customer'), '8625022024')
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Saayaleee')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Alia')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
@@ -300,9 +307,9 @@ WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_HINDI'))
 
-WebUI.setText(findTestObject('Object Repository/input__85530'), 'SayaliD')
+WebUI.setText(findTestObject('Object Repository/input__85530'), 'AliaB')
 
-WebUI.setText(findTestObject('Object Repository/input__85800'), '8625022023')
+WebUI.setText(findTestObject('Object Repository/input__85800'), '8625022024')
 
 WebUI.click(findTestObject('span_Save'))
 
