@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table//tr/th[@class=&quot;slds-cell-edit cellContainer&quot; ]//a[contains(@data-aura-rendered-by,&quot;285&quot;)]</value>
+         <value>(//a[@title='Saayaleee'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

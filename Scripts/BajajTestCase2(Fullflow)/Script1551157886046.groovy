@@ -187,7 +187,11 @@ WebUI.waitForElementClickable(findTestObject('a_Vanashri', [('name') : 'Manas'])
 
 WebUI.click(findTestObject('a_Vanashri', [('name') : 'Manas']))
 
-url = WebUI.getUrl()
+CustomerID = WebUI.getUrl()
+
+CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, 'Customer__c/', 1)
+
+CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, '/view', 0)
 
 WebUI.waitForElementClickable(findTestObject('span_Related'), 10)
 

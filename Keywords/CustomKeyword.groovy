@@ -19,6 +19,7 @@ import internal.GlobalVariable
 
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
+import java.awt.Toolkit;
 public class CustomKeyword {
 	@Keyword
 	def StoreDataToClipboard(String value){
@@ -26,6 +27,14 @@ public class CustomKeyword {
 	Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
 	clipboard.setContents(selection, selection);
 	println 'copied to clipboard '+value
+	}
+	
+	@Keyword
+	def String StoreSplitString(String inputstr,String delimeter,int instance){
+		String[] strarr=inputstr.split(delimeter);
+		String result=strarr[instance];
+		println 'splitted string is '+result
+		return result;
 	}
 
 	
