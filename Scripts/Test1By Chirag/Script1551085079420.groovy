@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.googlecode.javacv.cpp.opencv_ml.CvSVMSolver.GetRow
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -18,13 +20,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.setText(findTestObject('Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'), 'alexa')
+//WebUI.setText(findTestObject('Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'), Input)
+for (def rownum=1;rownum<=findTestData("First Test/1st").getRowNumbers();rownum++) {
+	WebUI.setText(findTestObject('Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'), findTestData("First Test/1st").getValue(1, rownum))
+	
+	Thread.sleep(200)
+}
+
 
 WebUI.click(findTestObject('Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon'))
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.delay(20)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

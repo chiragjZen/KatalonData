@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a36cc51f-6083-4989-9d0f-74878aff58f5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed97ebb0-b61c-4416-889e-22fa9dbc7622</id>
+      <masked>false</masked>
+      <name>Input</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for data driven" time="82" tests="4" failures="0" errors="0">
+   <testsuite name="Test Suite for data driven" tests="4" failures="0" errors="0" time="82" timestamp="2019-02-28 15:07:17" hostname="chirag.jain - RACLAP23-COMP.ZSPL.LOCAL" id="Test Suites/Test Suite for data driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190228_150715"/>
+         <property name="logFiles" value="D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190228_150715\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chirag.jain - RACLAP23-COMP.ZSPL.LOCAL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.4.30"/>
+         <property name="sessionId" value="7b6341e4e33d1dc94ec2c48940837468"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="PASSED">
+         <system-out><![CDATA[2019-02-28 15:07:17 - [TEST_CASE][PASSED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag
+
+2019-02-28 15:07:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-28 15:07:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-28 15:07:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-28 15:07:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-28 15:07:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:07:25 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), Input): Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:07:28 - [MESSAGE][PASSED] - Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:07:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:07:31 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-28 15:07:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-02-28 15:07:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:07:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-28 15:07:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-28 15:07:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-28 15:07:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="PASSED">
+         <system-out><![CDATA[2019-02-28 15:07:37 - [TEST_CASE][PASSED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag
+
+2019-02-28 15:07:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-28 15:07:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-28 15:07:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-28 15:07:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:07:43 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:07:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), Input): Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:07:46 - [MESSAGE][PASSED] - Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:07:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:07:51 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-28 15:07:51 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-02-28 15:07:52 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:07:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-28 15:07:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-28 15:07:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-28 15:07:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="PASSED">
+         <system-out><![CDATA[2019-02-28 15:07:58 - [TEST_CASE][PASSED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag
+
+2019-02-28 15:07:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-28 15:07:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-28 15:08:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-28 15:08:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:08:05 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), Input): Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:08:08 - [MESSAGE][PASSED] - Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:08:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:08:14 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-28 15:08:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-02-28 15:08:14 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:08:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-28 15:08:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-28 15:08:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-28 15:08:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="PASSED">
+         <system-out><![CDATA[2019-02-28 15:08:19 - [TEST_CASE][PASSED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag
+
+2019-02-28 15:08:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-28 15:08:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-28 15:08:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-28 15:08:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:08:27 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-02-28 15:08:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), Input): Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:08:27 - [MESSAGE][PASSED] - Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-02-28 15:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-02-28 15:08:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:08:34 - [MESSAGE][WARNING] - Test object id is null
+
+2019-02-28 15:08:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-02-28 15:08:34 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-02-28 15:08:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-28 15:08:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-28 15:08:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-28 15:08:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-28 15:07:17 - [TEST_SUITE][PASSED] - Test Suite for data driven: Test Cases/Test1By Chirag]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
