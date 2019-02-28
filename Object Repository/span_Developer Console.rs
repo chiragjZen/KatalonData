@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='developer-console-link']/a/div/div/span/span</value>
+         <value>//a[@title='Developer Console']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_IR-035021</name>
+   <name>Integrated Response</name>
    <tag></tag>
    <elementGuidId>236d1b08-a1bc-4e16-8a8e-f6aaf787ae37</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='6431:0']</value>
+         <value>(//th[@scope='row']//div//a[contains(text(),'IR')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

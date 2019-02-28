@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='brandBand_1']/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/th/span/a</value>
+         <value>//table//tr/th[@class=&quot;slds-cell-edit cellContainer&quot; ]//a[contains(@data-aura-rendered-by,&quot;285&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

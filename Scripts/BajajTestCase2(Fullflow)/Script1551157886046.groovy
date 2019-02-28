@@ -39,9 +39,9 @@ WebUI.click(findTestObject('Object Repository/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8227022018')
+WebUI.setText(findTestObject('input_Mobile Number (New Custo'), '8625022023')
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Cheerag')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Saayaleee')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
@@ -90,7 +90,7 @@ WebUI.click(findTestObject('Bypass mobile validate'))
 
 WebUI.setText(findTestObject('Object Repository/input__27080'), '150000')
 
-WebUI.setText(findTestObject('Object Repository/input__30740'), 'Jain')
+WebUI.setText(findTestObject('Object Repository/input__30740'), 'D')
 
 WebUI.click(findTestObject('DateofBirth'))
 
@@ -126,7 +126,9 @@ WebUI.click(findTestObject('zipcode selection'))
 
 WebUI.setText(findTestObject('Object Repository/input_BFL Branch_36200'), '443001 BULDHANA')
 
-WebUI.delay(2)
+not_run: WebUI.delay(3)
+
+WebUI.waitForElementVisible(findTestObject('div_443001-BULDHANA'), 60)
 
 WebUI.click(findTestObject('Object Repository/div_443001-BULDHANA'))
 
@@ -150,61 +152,87 @@ not_run: WebUI.click(findTestObject('input_Bypass Mobile Validate_2'))
 
 WebUI.click(findTestObject('span_Save'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.focus(findTestObject('img_Notifications_profileIcon'))
+WebUI.click(findTestObject('Downarrow'))
 
-WebUI.click(findTestObject('Object Repository/img_Notifications_profileIcon'))
+not_run: WebUI.waitForElementVisible(findTestObject('img_Notifications_profileIcon'), 60)
+
+not_run: WebUI.focus(findTestObject('img_Notifications_profileIcon'))
+
+not_run: WebUI.click(findTestObject('Object Repository/img_Notifications_profileIcon'))
 
 WebUI.click(findTestObject('Object Repository/a_Logout'))
 
+WebUI.delay(5)
+
 WebUI.navigateToUrl('https://pos--uat.cs72.my.salesforce.com/')
 
-WebUI.setText(findTestObject('Page_Login  Salesforce/input_Username_username'), 'yogesh.jamgaonkar@bajajfinserv.in.uat')
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Page_Login  Salesforce/input_Password_pw'), 'xbEUYNQNhZ9KKDnUvGvtqA==')
+WebUI.setText(findTestObject('Page_Login  FOS Community/input_Username_username'), 'yogesh.jamgaonkar@bajajfinserv.in.uat')
 
-WebUI.click(findTestObject('Page_Login  Salesforce/input_Password_Login'))
+WebUI.setEncryptedText(findTestObject('Page_Login  FOS Community/input_Password_pw'), 'xbEUYNQNhZ9KKDnUvGvtqA==')
 
-WebUI.setText(findTestObject('input_Select an object to limi'), '8226022019')
+WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
+
+WebUI.setText(findTestObject('input_Select an object to limi'), '8625022023')
 
 WebUI.click(findTestObject('Object Repository/span_8226022019 in Customers'))
 
-WebUI.setText(findTestObject('input_Select an object to limi'), '8226022019')
+not_run: WebUI.setText(findTestObject('input_Select an object to limi'), '7827022019')
 
-WebUI.click(findTestObject('Object Repository/a_Vanashri'))
+WebUI.waitForElementClickable(findTestObject('a_Vanashri', [('name') : 'Manas']), 60)
 
-WebUI.getUrl()
+WebUI.click(findTestObject('a_Vanashri', [('name') : 'Manas']))
+
+url = WebUI.getUrl()
+
+WebUI.waitForElementClickable(findTestObject('span_Related'), 10)
 
 WebUI.click(findTestObject('span_Related'))
 
-WebUI.click(findTestObject('Object Repository/a_IR-035021'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/div_Edit'))
+WebUI.scrollToPosition(0, 500)
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_--None--'))
+WebUI.waitForElementPresent(findTestObject('Integrated Response'), 60)
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_Match'))
+WebUI.focus(findTestObject('Integrated Response'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_--None--'))
+WebUI.click(findTestObject('Integrated Response'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_Thick'))
+WebUI.waitForElementVisible(findTestObject('div_Edit'), 60)
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_Initiated'))
+WebUI.click(findTestObject('div_Edit'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_Response Received'))
+WebUI.click(findTestObject('CIBIL Match'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_--None--'))
+WebUI.click(findTestObject('a_Match'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_Match'))
+WebUI.click(findTestObject('ThickThin'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/button_Save'))
+WebUI.click(findTestObject('a_Thick'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/div_Setup'))
+WebUI.click(findTestObject('Status'))
 
-WebUI.click(findTestObject('Page_IR-035021  Salesforce/span_Developer Console'))
+WebUI.click(findTestObject('a_Response Received'))
+
+WebUI.click(findTestObject('CIBIL Status'))
+
+WebUI.click(findTestObject('CIBIL_StatusMatch'))
+
+WebUI.click(findTestObject('span_Save2'))
+
+WebUI.waitForElementVisible(findTestObject('div_Setup'), 60)
+
+WebUI.click(findTestObject('div_Setup'))
+
+WebUI.click(findTestObject('span_Developer Console'))
 
 WebUI.switchToWindowTitle('Developer Console')
+
+WebUI.sendKeys(findTestObject('dev_Console'), Keys.chord(Keys.CONTROL, 'e'))
 
 WebUI.click(findTestObject('Page_Developer Console/span_OK'))
 
@@ -222,6 +250,8 @@ WebUI.click(findTestObject('Page_IR-035021  Salesforce/a_Log Out'))
 
 WebUI.navigateToUrl('https://uat-pos--uat.cs72.force.com/FOS/login')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Page_Login  FOS Community/input_Username_username'), 'AutomationFOS@bfl.com')
 
 WebUI.setEncryptedText(findTestObject('Page_Login  FOS Community/input_Password_pw'), '3zsWnKN+YWTTdAG8/sekZA==')
@@ -230,9 +260,9 @@ WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), '8226022019')
+WebUI.setText(findTestObject('input_First Name (New Customer'), '8625022023')
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Vanashri')
+WebUI.setText(findTestObject('input_First Name (New Customer'), 'Saayaleee')
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
@@ -270,9 +300,9 @@ WebUI.click(findTestObject('span_Save'))
 
 WebUI.click(findTestObject('Object Repository/a_HINDI'))
 
-WebUI.setText(findTestObject('Object Repository/input__85530'), 'VanashriS')
+WebUI.setText(findTestObject('Object Repository/input__85530'), 'SayaliD')
 
-WebUI.setText(findTestObject('Object Repository/input__85800'), '7741975512')
+WebUI.setText(findTestObject('Object Repository/input__85800'), '8625022023')
 
 WebUI.click(findTestObject('span_Save'))
 

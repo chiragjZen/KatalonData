@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='1247:0']/span</value>
+         <value>//input[@title=&quot;Search Customers and more&quot;]//following::span[contains(text(),'in Customers')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

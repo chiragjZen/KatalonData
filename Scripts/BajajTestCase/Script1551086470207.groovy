@@ -102,11 +102,11 @@ WebUI.setText(findTestObject('Page_Customer Chirag/input__35260'), 'sfdf')
 
 WebUI.setText(findTestObject('Page_Customer Chirag/input__35430'), 'b')
 
-WebUI.click(findTestObject('Page_Customer Chirag/div_443001 BULDHANA'))
+WebUI.click(findTestObject('null'))
 
 WebUI.setText(findTestObject('Page_Customer Chirag/input_BFL Branch_36800'), '443001')
 
-WebUI.click(findTestObject('Page_Customer Chirag/div_443001-BULDHANA'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Page_Customer Chirag/a_--None--'))
 

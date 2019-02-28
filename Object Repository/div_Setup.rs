@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='75:195;a']</value>
+         <value>//a[contains(@class,'menuTriggerLink slds-button slds-button_icon slds-button_icon slds-button_icon-container slds-button_icon-small slds-global-header__button_icon')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a//img[@class=' profileIcon']//following::span[@class=' profileName']</value>
+         <value>//span[@class=' profileName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='8228:0']/div/ul/li[2]/a</value>
+         <value>(//span[text()='CIBIL Match'])[last()]/following::li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
