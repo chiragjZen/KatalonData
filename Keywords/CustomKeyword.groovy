@@ -20,15 +20,19 @@ import internal.GlobalVariable
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.Toolkit;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.junit.After
 public class CustomKeyword {
 	@Keyword
 	def StoreDataToClipboard(String value){
-	StringSelection selection = new StringSelection(value);
-	Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-	clipboard.setContents(selection, selection);
-	println 'copied to clipboard '+value
+		StringSelection selection = new StringSelection(value);
+		Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+		clipboard.setContents(selection, selection);
+		println 'copied to clipboard '+value
 	}
-	
+
 	@Keyword
 	def String StoreSplitString(String inputstr,String delimeter,int instance){
 		String[] strarr=inputstr.split(delimeter);
@@ -37,5 +41,15 @@ public class CustomKeyword {
 		return result;
 	}
 
-	
+	@Keyword
+	def press_ctrl_A(){
+		Robot r=new Robot();
+		r.keyPress(KeyEvent.VK_SHIFT);
+		r.keyPress(KeyEvent.VK_CONTROL);
+		r.keyPress(KeyEvent.VK_HOME);
+		r.keyRelease(KeyEvent.VK_SHIFT);
+		r.keyRelease(KeyEvent.VK_CONTROL);
+		r.keyRelease(KeyEvent.VK_HOME);
+		println 'Keys pressed'
+	}
 }

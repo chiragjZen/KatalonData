@@ -32,7 +32,7 @@ CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, '/view'
 
 WebUI.delay(6)
 
-WebUI.waitForElementVisible(findTestObject('div_Setup'), 60)
+not_run: WebUI.waitForElementVisible(findTestObject('div_Setup'), 60)
 
 WebUI.click(findTestObject('div_Setup'))
 
@@ -54,9 +54,15 @@ WebUI.switchToWindowTitle('Execute Anonymous')
 
 WebUI.delay(10)
 
-WebUI.clearText(findTestObject('devconsole_div'))
+WebUI.doubleClick(findTestObject('devconsole_div'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.delay(10)
+
+not_run: WebUI.sendKeys(findTestObject('devconsole_div'), Keys.chord(Keys.LEFT_CONTROL, 'a'))
+
+CustomKeywords.'CustomKeyword.press_ctrl_A'()
+
+not_run: WebUI.sendKeys(null, Keys.chord(Keys.ENTER, 'a'))
 
 WebUI.delay(10)
 
