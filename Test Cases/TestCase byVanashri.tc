@@ -5,4 +5,11 @@
    <tag>TestCase byVanashri</tag>
    <comment></comment>
    <testCaseGuid>d666c8cf-ccc6-4c16-9f29-184e752b03d0</testCaseGuid>
+   <variable>
+      <defaultValue>'CTRL+A'</defaultValue>
+      <description></description>
+      <id>54d82e85-e6c5-4fdd-b76b-9da67654a0c4</id>
+      <masked>false</masked>
+      <name>strKeys</name>
+   </variable>
 </TestCaseEntity>
