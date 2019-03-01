@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='oneHeader']/div[2]/span/ul/li[8]/span/button/div/span/div/span</value>
+         <value>//span//img[@title='User']/ancestor::button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

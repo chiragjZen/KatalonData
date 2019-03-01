@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>//span[text()='Mark Stage as Complete']//ancestor::button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

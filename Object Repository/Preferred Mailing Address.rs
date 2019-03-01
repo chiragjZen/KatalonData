@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log Out</name>
+   <name>Preferred Mailing Address</name>
    <tag></tag>
-   <elementGuidId>61e03b23-2a2e-4f2c-8d4a-32cc011488ea</elementGuidId>
+   <elementGuidId>c8cc0736-556e-4dfa-a3b8-bfae3a7fe50d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Log Out']</value>
+         <value>(//span[text()='Preferred Mailing Address']//following::a[@class='select'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,105 +22,106 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-aura-rendered-by</name>
       <type>Main</type>
-      <value>profile-link-label logout uiOutputURL</value>
+      <value>8940:0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/secur/logout.jsp</value>
+      <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>dir</name>
+      <name>role</name>
       <type>Main</type>
-      <value>ltr</value>
+      <value>menuitemradio</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-aura-rendered-by</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>28:9431;a</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-aura-class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>uiOutputURL</value>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Residence</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-interactive-lib-uid</name>
+      <name>aria-checked</name>
       <type>Main</type>
-      <value>53</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log Out</value>
+      <value>Residence</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;107:9431;a&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;panel-content scrollable&quot;]/div[@class=&quot;oneUserProfileCard&quot;]/div[@class=&quot;profile-card-indent&quot;]/div[@class=&quot;profile-card-toplinks&quot;]/a[@class=&quot;profile-link-label logout uiOutputURL&quot;]</value>
+      <value>id(&quot;8462:0&quot;)/div[@class=&quot;select-options&quot;]/ul[@class=&quot;scrollable&quot;]/li[@class=&quot;uiMenuItem uiRadioMenuItem&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='107:9431;a']/div/div/div/div[2]/div/a[2]</value>
+      <value>//div[@id='8462:0']/div/ul/li[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'Log Out')]</value>
+      <value>//a[contains(text(),'Residence')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--None--'])[4]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='pos--UAT.cs72.my.salesforce.com'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Vehicle'])[3]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Display Density'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comfy'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Office'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>(//a[contains(@href, '/secur/logout.jsp')])[2]</value>
+      <value>(//a[contains(@href, 'javascript:void(0);')])[39]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/a[2]</value>
+      <value>//div[13]/div/ul/li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

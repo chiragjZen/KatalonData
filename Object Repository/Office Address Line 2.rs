@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__82980</name>
+   <name>Office Address Line 2</name>
    <tag></tag>
    <elementGuidId>451d2a52-4c60-4e9a-9a16-f899210105d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='8298:0']</value>
+         <value>(//label//span[text()=&quot;Office Address Line 2&quot;]//following::input)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

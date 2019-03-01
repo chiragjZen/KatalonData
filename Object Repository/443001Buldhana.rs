@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>a_Residence</name>
+   <description>//div[@title='443001 BULDHANA']</description>
+   <name>443001Buldhana</name>
    <tag></tag>
-   <elementGuidId>caec7dd9-31af-4cb7-a3b1-4016eb119bf8</elementGuidId>
+   <elementGuidId>ce794035-5a76-48e1-895f-b5997d173204</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Residence']</value>
+         <value>//div[@title='443001 BULDHANA']</value>
       </entry>
       <entry>
          <key>BASIC</key>

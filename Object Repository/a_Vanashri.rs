@@ -6,11 +6,18 @@
    <elementGuidId>32635670-05f8-44f9-a913-646aa421ac92</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//a[@title='Saayaleee'])[1]</value>
+         <value>(//a[contains(@title,'Saayaleee')])[2]//parent::span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title = 'Saayaleee']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +69,7 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -87,7 +94,7 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Vanashri</value>
+      <value>Saayaleee</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,13 +109,6 @@
       <name>data-aura-class</name>
       <type>Main</type>
       <value>forceOutputLookup</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Vanashri</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

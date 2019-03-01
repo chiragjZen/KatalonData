@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Residence</name>
+   <name>Show 7 more actions</name>
    <tag></tag>
-   <elementGuidId>caec7dd9-31af-4cb7-a3b1-4016eb119bf8</elementGuidId>
+   <elementGuidId>77ecc03e-c66a-47e2-8ada-86d3ef9b29e9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Residence']</value>
+         <value>//a[@title=&quot;Show 7 more actions&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

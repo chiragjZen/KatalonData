@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Residence</name>
+   <name>OpportunityName</name>
    <tag></tag>
-   <elementGuidId>caec7dd9-31af-4cb7-a3b1-4016eb119bf8</elementGuidId>
+   <elementGuidId>9c70e3ab-7c5d-4d8b-a31d-9e24d2c78e79</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Residence']</value>
+         <value>(//table//td)[1]//a</value>
       </entry>
       <entry>
          <key>BASIC</key>

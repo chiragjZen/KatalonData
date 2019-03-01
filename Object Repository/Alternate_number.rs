@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Residence</name>
+   <name>Alternate_number</name>
    <tag></tag>
-   <elementGuidId>caec7dd9-31af-4cb7-a3b1-4016eb119bf8</elementGuidId>
+   <elementGuidId>1a79c890-3ed1-48d1-875b-65aee39f55f8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Residence']</value>
+         <value>(//label//span[text()=&quot;Alternate No.&quot;]//following::input)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Residence</name>
+   <name>Office_Phone_Num</name>
    <tag></tag>
-   <elementGuidId>caec7dd9-31af-4cb7-a3b1-4016eb119bf8</elementGuidId>
+   <elementGuidId>5bf7d269-0a65-4a6b-a5bb-a5fba06bb6cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='Residence']</value>
+         <value>(//label//span[text()=&quot;Office Phone No.&quot;]//following::input)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

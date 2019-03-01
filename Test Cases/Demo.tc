@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bf665b5-48a6-48a5-937e-ce11361253a8</testCaseGuid>
+   <variable>
+      <defaultValue>['Father\'s Name/Spouse Name', 'Mother\'s Name', 'Office Address Line 1', 'Office Address Line 2']</defaultValue>
+      <description></description>
+      <id>6dc4a352-752a-4dea-9b6b-d9aaa2af120a</id>
+      <masked>false</masked>
+      <name>Header</name>
+   </variable>
+   <variable>
+      <defaultValue>['ABC', 'Zensoft', 'Rahuri', 'Pune']</defaultValue>
+      <description></description>
+      <id>d61dd6ef-6a3e-4b91-bde2-e6e3d8172284</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>42f9676f-dc39-4af2-98bf-103266d42c32</id>
+      <masked>false</masked>
+      <name>size</name>
+   </variable>
+</TestCaseEntity>
