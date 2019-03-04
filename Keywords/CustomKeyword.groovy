@@ -37,9 +37,12 @@ public class CustomKeyword {
 
 	@Keyword
 	def String StoreSplitString(String inputstr,String delimeter,int instance){
-		String[] strarr=inputstr.split(delimeter);
-		String result=strarr[instance];
-		println 'splitted string is '+result
+			println 'input string is'+inputstr
+			String[] strarr=inputstr.split(delimeter);
+			String result=strarr[instance];
+			println 'splitted string is '+result
+		
+		
 		return result;
 	}
 
@@ -56,13 +59,10 @@ public class CustomKeyword {
 	}
 
 	@Keyword
-	def SetTextAttribute(TestObject to , String value) {	
+	def SetTextAttribute(TestObject to , String value) {
 		def driver = DF.getWebDriver();
-			WebElement element = WebUI.findWebElement(to);
-						((JavascriptExecutor)driver).executeScript(
-					"var ele=arguments[0]; ele.innerHTML = '"+value+"';", element);
-
-			
-		
+		WebElement element = WebUI.findWebElement(to);
+		((JavascriptExecutor)driver).executeScript(
+				"var ele=arguments[0]; ele.innerHTML = '"+value+"';", element);
 	}
 }

@@ -12,7 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -188,6 +187,8 @@ customerName = WebUI.modifyObjectProperty(findTestObject('Object Repository/a_Va
 
 WebUI.click(customerName)
 
+WebUI.waitForElementVisible(findTestObject('span_Related'), 10)
+
 CustomerID = WebUI.getUrl()
 
 CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, 'Customer__c/', 1)
@@ -243,6 +244,8 @@ WebUI.delay(6)
 WebUI.switchToWindowTitle('Developer Console')
 
 WebUI.maximizeWindow()
+
+WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'e'))
 

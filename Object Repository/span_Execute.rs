@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='button-1186-btnInnerEl']</value>
+         <value>//button//span[text()='Execute']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,7 +19,7 @@ WebUI.navigateToUrl('https://pos--uat.cs72.my.salesforce.com/')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_Login  FOS Community/input_Username_username'), 'yogesh.jamgaonkar@bajajfinserv.in.uat')
+WebUI.setText(findTestObject('Page_Login  FOS Community/input_Username_username'), 'usename')
 
 WebUI.setEncryptedText(findTestObject('Page_Login  FOS Community/input_Password_pw'), 'xbEUYNQNhZ9KKDnUvGvtqA==')
 

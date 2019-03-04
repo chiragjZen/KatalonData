@@ -164,3 +164,8 @@ not_run: WebUI.click(findTestObject('Object Repository/img_Notifications_profile
 
 WebUI.click(findTestObject('Object Repository/a_Logout'))
 
+WebUI.callTestCase(findTestCase('Bajaj TextCase2'), ['username' : 'yogesh.jamgaonkar@bajajfinserv.in.uat', 'password' : 'qqww@333'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('BajajTextCase3'), [:], FailureHandling.STOP_ON_FAILURE)
+

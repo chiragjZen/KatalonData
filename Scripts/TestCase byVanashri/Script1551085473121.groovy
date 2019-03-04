@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://pos--uat.lightning.force.com/lightning/r/Customer__c/a085D000003bdWSQAY/view')
+WebUI.openBrowser('https://pos--uat.lightning.force.com/lightning/r/Customer__c/a085D000003bd5EQAQ/view')
 
 WebUI.setText(findTestObject('Page_Login  FOS Community/input_Username_username'), 'yogesh.jamgaonkar@bajajfinserv.in.uat')
 
@@ -56,19 +56,17 @@ WebUI.switchToWindowTitle('Execute Anonymous')
 
 WebUI.delay(3)
 
-WebUI.clickOffset(findTestObject('devconsole_div'), 0, 0)
-
-WebUI.doubleClick(findTestObject('devconsole_div'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.doubleClick(findTestObject('devconsole_div'))
 
-CustomKeywords.'CustomKeyword.SetTextAttribute'(findTestObject('devconsole_div'), 'Chirag')
+CustomKeywords.'CustomKeyword.SetTextAttribute'(findTestObject('devconsole_div'), CustomerID)
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('span_Execute'))
 
 WebUI.closeWindowTitle('Execute Anonymous')
+
+WebUI.closeWindowTitle('Developer Console')
 
 WebUI.delay(10)
 

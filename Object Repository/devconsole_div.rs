@@ -6,12 +6,11 @@
    <elementGuidId>ecc78bbd-e4a9-43d6-a3db-a466956f2bfa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//span[@class='cm-string'])[last()]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@class='cm-string'])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

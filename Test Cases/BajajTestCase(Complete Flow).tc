@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>BajajTestCase2(Fullflow)</description>
-   <name>BajajTestCase2(Fullflow)</name>
-   <tag>BajajTestCase2(Fullflow)</tag>
+   <description></description>
+   <name>BajajTestCase(Complete Flow)</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>251ab467-f605-41a9-aa0f-1078c37a57bd</testCaseGuid>
+   <testCaseGuid>99ae31e4-8123-4581-af4f-4c2431c5a329</testCaseGuid>
    <variable>
-      <defaultValue>'Nikita'</defaultValue>
+      <defaultValue>'Mpriya'</defaultValue>
       <description></description>
-      <id>0724f301-d9d5-40f0-9889-b2916c1cea05</id>
+      <id>142811bf-765b-40e4-baab-58b514a24454</id>
       <masked>false</masked>
       <name>Customer_name</name>
    </variable>
    <variable>
-      <defaultValue>'9850649819'</defaultValue>
+      <defaultValue>'8569324515'</defaultValue>
       <description></description>
-      <id>0826a8ff-d5fe-4ebf-b33e-3c8cf4c5f44b</id>
+      <id>d580504a-1bda-4a9d-916a-6c49d1d61d8f</id>
       <masked>false</masked>
       <name>Mobile_Number</name>
    </variable>
    <variable>
       <defaultValue>['Father\'s Name/Spouse Name', 'Mother\'s Name', 'Office Address Line 1', 'Office Address Line 2']</defaultValue>
       <description></description>
-      <id>3fbbe9cd-4508-4a63-8729-09f09ba8288f</id>
+      <id>77745113-af1e-49d2-a464-f4b007cedc48</id>
       <masked>false</masked>
       <name>Header</name>
    </variable>
    <variable>
-      <defaultValue>['ABC', 'XYZ', 'Pune', 'Satara Road']</defaultValue>
+      <defaultValue>['ABC', 'XYZ', 'Satara road', 'Pune Station']</defaultValue>
       <description></description>
-      <id>3197dd6f-77a4-4d51-859b-382acdea650e</id>
+      <id>40822bc7-2806-4276-b5c0-2334fcfb63c5</id>
       <masked>false</masked>
       <name>value</name>
    </variable>
    <variable>
-      <defaultValue>4</defaultValue>
+      <defaultValue>'4'</defaultValue>
       <description></description>
-      <id>528bdf89-91e6-4115-a34c-a0ac735a6e24</id>
+      <id>39d6209b-340b-4cae-8d3d-414a222ea33d</id>
       <masked>false</masked>
       <name>size</name>
    </variable>
