@@ -12,8 +12,9 @@ import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.WebUIDriverType
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
+import com.kms.katalon.core.webui.driver.DriverFactory as DF
 import internal.GlobalVariable
 
 
@@ -22,8 +23,9 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.Toolkit;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
-
 import org.junit.After
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebElement
 public class CustomKeyword {
 	@Keyword
 	def StoreDataToClipboard(String value){
@@ -51,5 +53,16 @@ public class CustomKeyword {
 		r.keyRelease(KeyEvent.VK_CONTROL);
 		r.keyRelease(KeyEvent.VK_HOME);
 		println 'Keys pressed'
+	}
+
+	@Keyword
+	def SetAttribute(TestObject to , String value) {	
+		def driver = DF.getWebDriver();
+			WebElement element = WebUI.findWebElement(to);
+						((JavascriptExecutor)driver).executeScript(
+					"var ele=arguments[0]; ele.innerHTML = '"+value+"';", element);
+
+			
+		
 	}
 }

@@ -22,6 +22,8 @@ WebUI.setEncryptedText(findTestObject('Page_Login  FOS Community/input_Password_
 
 WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
+WebUI.maximizeWindow()
+
 WebUI.delay(5)
 
 CustomerID = WebUI.getUrl()
@@ -46,27 +48,29 @@ WebUI.maximizeWindow()
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'e'))
 
-WebUI.waitForAlert(10)
+WebUI.waitForAlert(4)
 
 WebUI.click(findTestObject('afterDevConsole'))
 
 WebUI.switchToWindowTitle('Execute Anonymous')
 
-WebUI.delay(10)
+WebUI.delay(3)
+
+WebUI.clickOffset(findTestObject('devconsole_div'), 0, 0)
 
 WebUI.doubleClick(findTestObject('devconsole_div'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.doubleClick(findTestObject('devconsole_div'))
+
+CustomKeywords.'CustomKeyword.SetTextAttribute'(findTestObject('devconsole_div'), 'Chirag')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('span_Execute'))
+
+WebUI.closeWindowTitle('Execute Anonymous')
+
 WebUI.delay(10)
-
-not_run: WebUI.sendKeys(findTestObject('devconsole_div'), Keys.chord(Keys.LEFT_CONTROL, 'a'))
-
-CustomKeywords.'CustomKeyword.press_ctrl_A'()
-
-not_run: WebUI.sendKeys(null, Keys.chord(Keys.ENTER, 'a'))
-
-WebUI.delay(10)
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.BACK_SPACE))
 
 not_run: url = WebUI.getUrl()
 
