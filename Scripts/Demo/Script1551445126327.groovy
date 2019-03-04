@@ -46,9 +46,7 @@ WebUI.click(findTestObject('Object Repository/a_No Vehicle'))
 WebUI.click(findTestObject('a_No Vehicle Option'))
 
 //WebUI.setText(findTestObject('FatherName_SpouseName'), 'ABC')
-
-
-for (int i = 0; i < size; i++){
+for (int i = 0; i < size; i++) {
     element = WebUI.modifyObjectProperty(findTestObject('FatherName_SpouseName'), 'xpath', 'equals', ('(//label//span[text()= "' + 
         (Header[i])) + '"]//following::input)[1]', true)
 

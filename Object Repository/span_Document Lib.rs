@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Detail'])[1]/following::span[2]</value>
+         <value>//a[@title='Document Lib']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

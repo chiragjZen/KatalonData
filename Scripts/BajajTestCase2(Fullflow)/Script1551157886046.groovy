@@ -190,9 +190,9 @@ WebUI.click(customerName)
 
 CustomerID = WebUI.getUrl()
 
-CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, 'Customer__c/', 1)
+not_run: CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, 'Customer__c/', 1)
 
-CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, '/view', 0)
+not_run: CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, '/view', 0)
 
 WebUI.waitForElementClickable(findTestObject('span_Related'), 10)
 
@@ -210,7 +210,7 @@ WebUI.click(findTestObject('Integrated Response'))
 
 WebUI.waitForElementVisible(findTestObject('div_Edit2'), 60)
 
-WebUI.click(findTestObject('div_Edit2'))
+WebUI.clickOffset(findTestObject('div_Edit2'), 100, 100)
 
 WebUI.click(findTestObject('CIBIL Match'))
 
@@ -274,13 +274,13 @@ WebUI.click(findTestObject('Page_Login  FOS Community/input_Password_Login'))
 
 WebUI.click(findTestObject('Object Repository/a_Search'))
 
-WebUI.setText(findTestObject('Page_Search Customer/input_Mobile Number (New Custo'), '8601032019')
+WebUI.setText(findTestObject('Page_Search Customer/input_Mobile Number (New Custo'), Mobile_Number)
 
-WebUI.setText(findTestObject('input_First Name (New Customer'), 'Alisha')
+WebUI.setText(findTestObject('input_First Name (New Customer'), Customer_name)
 
 WebUI.click(findTestObject('Object Repository/span_Confirm'))
 
-WebUI.click(findTestObject('button_Proceed as NTB'))
+WebUI.click(findTestObject('button_Proceed to Cart'))
 
 WebUI.click(findTestObject('Object Repository/a_Show more actions'))
 
@@ -292,9 +292,16 @@ WebUI.click(findTestObject('Object Repository/a_No Vehicle'))
 
 WebUI.click(findTestObject('a_No Vehicle Option'))
 
-WebUI.setText(findTestObject('FatherName_SpouseName'), 'ABC')
+for (int i = 0; i < size; i++) {
+    element = WebUI.modifyObjectProperty(findTestObject('FatherName_SpouseName'), 'xpath', 'equals', ('(//label//span[text()= "' + 
+        (Header[i])) + '"]//following::input)[1]', true)
 
-element=WebUI.modifyObjectProperty(findTestObject('FatherName_SpouseName'), 'text', 'equals', "Mother's Name", true)
+    WebUI.setText(element, value[i])
+}
+
+/*WebUI.setText(findTestObject('FatherName_SpouseName'), 'ABC')
+
+element = WebUI.modifyObjectProperty(findTestObject('FatherName_SpouseName'), 'text', 'equals', 'Mother\'s Name', true)
 
 WebUI.setText(element, 'ABC')
 
@@ -302,8 +309,7 @@ WebUI.setText(findTestObject('MotherName'), 'XYZ')
 
 WebUI.setText(findTestObject('Office Address Line 1'), 'Sangamwadi')
 
-WebUI.setText(findTestObject('Office Address Line 2'), 'Kennedy road')
-
+WebUI.setText(findTestObject('Office Address Line 2'), 'Kennedy road')*/
 WebUI.setText(findTestObject('Office AreaLocality'), 'Pune station')
 
 WebUI.click(findTestObject('Office Pincode'))
@@ -346,13 +352,17 @@ WebUI.click(findTestObject('Object Repository/input_Bypass Extended Warranty'))
 
 WebUI.click(findTestObject('span_Save'))
 
+WebUI.waitForElementVisible(findTestObject('button_Mark Stage as Complete'), 10)
+
 WebUI.click(findTestObject('Object Repository/button_Mark Stage as Complete'))
 
 WebUI.click(findTestObject('div_Edit'))
 
+WebUI.scrollToElement(findTestObject('span_BankDetails'), 0)
+
 WebUI.click(findTestObject('Object Repository/input_Change ECS Option_282680'))
 
-WebUI.click(findTestObject('a_--None--'))
+WebUI.click(findTestObject('Account_Type'))
 
 WebUI.click(findTestObject('Object Repository/a_Savings'))
 
@@ -364,15 +374,19 @@ WebUI.setText(findTestObject('Object Repository/input_Bank Account Number_2841')
 
 WebUI.click(findTestObject('span_Save'))
 
+WebUI.waitForElementVisible(findTestObject('span_Document Lib'), 10)
+
 WebUI.click(findTestObject('Object Repository/span_Document Lib'))
 
-WebUI.click(findTestObject('Object Repository/input_Contact_1113641a'))
+WebUI.click(findTestObject('CustomerPhoto'))
 
-WebUI.click(findTestObject('Object Repository/span_Upload Files'))
+not_run: WebUI.click(findTestObject('Object Repository/span_Upload Files'))
 
-WebUI.click(findTestObject('button_Save'))
+WebUI.uploadFile(findTestObject('span_Upload Files'), 'E:\\demopic.jpg')
 
-WebUI.click(findTestObject('Object Repository/span_Mark Stage as Complete'))
+WebUI.click(findTestObject('Page_Customer Chirag/span_Save'))
+
+WebUI.click(findTestObject('button_Mark Stage as Complete'))
 
 WebUI.click(findTestObject('img_Notifications_profileIcon'))
 

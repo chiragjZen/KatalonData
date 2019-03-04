@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Contact_1113641a</name>
+   <name>CustomerPhoto</name>
    <tag></tag>
    <elementGuidId>998ee78a-9f03-4a51-8604-f0bbcb49c1bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='11:13641;a']</value>
+         <value>//span[text()='Customer Photo']//preceding::span/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

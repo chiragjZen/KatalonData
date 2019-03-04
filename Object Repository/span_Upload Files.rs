@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='file-selector-label-545']/span</value>
+         <value>//label//span[text()='Upload Files']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

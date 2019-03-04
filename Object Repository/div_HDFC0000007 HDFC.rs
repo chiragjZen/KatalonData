@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='1:12266;a']/div[2]/div</value>
+         <value>//div[text()='Viman Nagar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

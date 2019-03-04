@@ -6,17 +6,38 @@
    <comment></comment>
    <testCaseGuid>251ab467-f605-41a9-aa0f-1078c37a57bd</testCaseGuid>
    <variable>
-      <defaultValue>'Manisha'</defaultValue>
+      <defaultValue>'Albinaa'</defaultValue>
       <description></description>
       <id>0724f301-d9d5-40f0-9889-b2916c1cea05</id>
       <masked>false</masked>
       <name>Customer_name</name>
    </variable>
    <variable>
-      <defaultValue>'8201032019'</defaultValue>
+      <defaultValue>'9850403202'</defaultValue>
       <description></description>
       <id>0826a8ff-d5fe-4ebf-b33e-3c8cf4c5f44b</id>
       <masked>false</masked>
       <name>Mobile_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>['Father\'s Name/Spouse Name', 'Mother\'s Name', 'Office Address Line 1', 'Office Address Line 2']</defaultValue>
+      <description></description>
+      <id>3fbbe9cd-4508-4a63-8729-09f09ba8288f</id>
+      <masked>false</masked>
+      <name>Header</name>
+   </variable>
+   <variable>
+      <defaultValue>['ABC', 'XYZ', 'Pune', 'Satara Road']</defaultValue>
+      <description></description>
+      <id>3197dd6f-77a4-4d51-859b-382acdea650e</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+   <variable>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>528bdf89-91e6-4115-a34c-a0ac735a6e24</id>
+      <masked>false</masked>
+      <name>size</name>
    </variable>
 </TestCaseEntity>
