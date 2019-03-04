@@ -56,7 +56,7 @@ public class CustomKeyword {
 	}
 
 	@Keyword
-	def SetAttribute(TestObject to , String value) {	
+	def SetTextAttribute(TestObject to , String value) {	
 		def driver = DF.getWebDriver();
 			WebElement element = WebUI.findWebElement(to);
 						((JavascriptExecutor)driver).executeScript(
