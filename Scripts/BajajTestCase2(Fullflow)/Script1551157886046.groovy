@@ -190,9 +190,9 @@ WebUI.click(customerName)
 
 CustomerID = WebUI.getUrl()
 
-CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, 'Customer__c/', 1)
+not_run: CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, 'Customer__c/', 1)
 
-CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, '/view', 0)
+not_run: CustomerID = CustomKeywords.'CustomKeyword.StoreSplitString'(CustomerID, '/view', 0)
 
 WebUI.waitForElementClickable(findTestObject('span_Related'), 10)
 
@@ -246,16 +246,6 @@ WebUI.maximizeWindow()
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.CONTROL, 'e'))
 
-WebUI.click(findTestObject('afterDevConsole'))
-
-WebUI.switchToWindowTitle('Execute Anonymous')
-
-WebUI.delay(3)
-
-WebUI.doubleClick(findTestObject('devconsole_div'))
-
-CustomKeywords.'CustomKeyword.SetTextAttribute'(findTestObject('devconsole_div'), customer_name)
-
 WebUI.click(findTestObject('Page_Developer Console/span_OK'))
 
 WebUI.click(findTestObject('Page_Developer Console/span_a085D000003bXsvQAE'))
@@ -263,12 +253,6 @@ WebUI.click(findTestObject('Page_Developer Console/span_a085D000003bXsvQAE'))
 WebUI.setText(findTestObject('Page_Developer Console/textarea'), 'a085D000003baFlQAI$')
 
 WebUI.click(findTestObject('Page_Developer Console/span_Execute'))
-
-WebUI.closeWindowTitle('Execute Anonymous')
-
-WebUI.closeWindowTitle('Developer Console')
-
-WebUI.delay(10)
 
 WebUI.switchToWindowTitle('IR-035021 | Salesforce')
 

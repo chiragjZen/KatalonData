@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.builtin.ModifyObjectPropertyKeyword as
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com/')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 

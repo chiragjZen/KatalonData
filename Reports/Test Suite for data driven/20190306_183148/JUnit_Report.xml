@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite for data driven" time="266" tests="0" failures="5" errors="0">
+   <testsuite name="Test Suite for data driven" tests="0" failures="5" errors="0" time="266" timestamp="2019-03-06 18:31:51" hostname="chirag.jain - RACLAP23-COMP.ZSPL.LOCAL" id="Test Suites/Test Suite for data driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148"/>
+         <property name="logFiles" value="D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\execution0.log"/>
+         <property name="attachments" value="D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877366097.png, D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877419990.png, D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877474524.png, D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877523968.png, D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877575505.png"/>
+         <property name="hostName" value="chirag.jain - RACLAP23-COMP.ZSPL.LOCAL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="192.168.4.30"/>
+         <property name="sessionId" value="79de3d75-5634-445e-a9fd-69f4b2e322b5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 18:31:51 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:31:52 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.com/"): Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:31:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-06 18:31:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-06 18:32:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:32:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:32:07 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:32:07 - [TEST_STEP][PASSED] - for ([rownum = 1, rownum <= findTestData("First Test/1st").getRowNumbers(), (rownum++)]): null
+
+2019-03-06 18:32:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:08 - [MESSAGE][PASSED] - Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:08 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:09 - [MESSAGE][PASSED] - Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:09 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:09 - [MESSAGE][PASSED] - Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:09 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:09 - [MESSAGE][PASSED] - Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:09 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:10 - [MESSAGE][PASSED] - Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:10 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:32:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:32:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:32:15 - [MESSAGE][WARNING] - Test object id is null
+
+2019-03-06 18:32:15 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-06 18:32:15 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:32:15 - [TEST_STEP][PASSED] - itemlink = modifyObjectProperty(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick"), "data-attribute", "equals", findTestData("First Test/1st").getValue(2, 1), true): Modify property of object successfully
+
+2019-03-06 18:32:15 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-03-06 18:32:15 - [TEST_STEP][FAILED] - click(itemlink): click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:32:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-06 18:32:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+[[ATTACHMENT|D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877366097.png]]
+
+2019-03-06 18:32:46 - [MESSAGE][FAILED] - click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-06 18:31:51 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 18:32:46 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:32:46 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.com/"): Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:32:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 18:32:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-06 18:32:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:32:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:32:59 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:32:59 - [TEST_STEP][PASSED] - for ([rownum = 1, rownum <= findTestData("First Test/1st").getRowNumbers(), (rownum++)]): null
+
+2019-03-06 18:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:59 - [MESSAGE][PASSED] - Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:59 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:59 - [MESSAGE][PASSED] - Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:32:59 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:00 - [MESSAGE][PASSED] - Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:00 - [MESSAGE][PASSED] - Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:00 - [MESSAGE][PASSED] - Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:33:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:33:08 - [MESSAGE][WARNING] - Test object id is null
+
+2019-03-06 18:33:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-06 18:33:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:33:08 - [TEST_STEP][PASSED] - itemlink = modifyObjectProperty(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick"), "data-attribute", "equals", findTestData("First Test/1st").getValue(2, 1), true): Modify property of object successfully
+
+2019-03-06 18:33:08 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-03-06 18:33:08 - [TEST_STEP][FAILED] - click(itemlink): click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:33:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-06 18:33:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+[[ATTACHMENT|D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877419990.png]]
+
+2019-03-06 18:33:40 - [MESSAGE][FAILED] - click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-06 18:32:46 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 18:33:40 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:33:40 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.com/"): Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:33:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 18:33:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-06 18:33:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:33:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:33:56 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:33:56 - [TEST_STEP][PASSED] - for ([rownum = 1, rownum <= findTestData("First Test/1st").getRowNumbers(), (rownum++)]): null
+
+2019-03-06 18:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:56 - [MESSAGE][PASSED] - Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:56 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:56 - [MESSAGE][PASSED] - Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:56 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:57 - [MESSAGE][PASSED] - Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:57 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:57 - [MESSAGE][PASSED] - Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:57 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:57 - [MESSAGE][PASSED] - Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:33:57 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:34:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:34:03 - [MESSAGE][WARNING] - Test object id is null
+
+2019-03-06 18:34:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-06 18:34:03 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:34:03 - [TEST_STEP][PASSED] - itemlink = modifyObjectProperty(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick"), "data-attribute", "equals", findTestData("First Test/1st").getValue(2, 1), true): Modify property of object successfully
+
+2019-03-06 18:34:03 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-03-06 18:34:03 - [TEST_STEP][FAILED] - click(itemlink): click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:34:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-06 18:34:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+[[ATTACHMENT|D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877474524.png]]
+
+2019-03-06 18:34:34 - [MESSAGE][FAILED] - click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-06 18:33:40 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 18:34:34 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:34:34 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.com/"): Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:34:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 18:34:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-06 18:34:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:34:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:34:46 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:34:46 - [TEST_STEP][PASSED] - for ([rownum = 1, rownum <= findTestData("First Test/1st").getRowNumbers(), (rownum++)]): null
+
+2019-03-06 18:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:46 - [MESSAGE][PASSED] - Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:46 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:47 - [MESSAGE][PASSED] - Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:47 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:47 - [MESSAGE][PASSED] - Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:47 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:47 - [MESSAGE][PASSED] - Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:47 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:48 - [MESSAGE][PASSED] - Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:34:48 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:34:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:34:53 - [MESSAGE][WARNING] - Test object id is null
+
+2019-03-06 18:34:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-06 18:34:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:34:53 - [TEST_STEP][PASSED] - itemlink = modifyObjectProperty(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick"), "data-attribute", "equals", findTestData("First Test/1st").getValue(2, 1), true): Modify property of object successfully
+
+2019-03-06 18:34:53 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-03-06 18:34:53 - [TEST_STEP][FAILED] - click(itemlink): click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:35:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-06 18:35:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+[[ATTACHMENT|D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877523968.png]]
+
+2019-03-06 18:35:24 - [MESSAGE][FAILED] - click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-06 18:34:34 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test1By Chirag" classname="Test Cases/Test1By Chirag" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-06 18:35:24 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:35:24 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.com/"): Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:35:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-06 18:35:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-06 18:35:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.com/'
+
+2019-03-06 18:35:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:35:37 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2019-03-06 18:35:37 - [TEST_STEP][PASSED] - for ([rownum = 1, rownum <= findTestData("First Test/1st").getRowNumbers(), (rownum++)]): null
+
+2019-03-06 18:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:37 - [MESSAGE][PASSED] - Text 'alexa' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:37 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:38 - [MESSAGE][PASSED] - Text 'top' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:38 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:38 - [MESSAGE][PASSED] - Text 'tV' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:38 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:38 - [MESSAGE][PASSED] - Text 'Plasma' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:38 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput"), findTestData("First Test/1st").getValue(1, rownum)): Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:39 - [MESSAGE][PASSED] - Text 'alexa bluetooth' is set on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com Online Shopping for/SearchInput'
+
+2019-03-06 18:35:39 - [TEST_STEP][PASSED] - Thread.sleep(200): null
+
+2019-03-06 18:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon")): Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon' is clicked on
+
+2019-03-06 18:35:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:35:44 - [MESSAGE][WARNING] - Test object id is null
+
+2019-03-06 18:35:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-03-06 18:35:44 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'tempBody'
+
+2019-03-06 18:35:44 - [TEST_STEP][PASSED] - itemlink = modifyObjectProperty(findTestObject("Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick"), "data-attribute", "equals", findTestData("First Test/1st").getValue(2, 1), true): Modify property of object successfully
+
+2019-03-06 18:35:44 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2019-03-06 18:35:44 - [TEST_STEP][FAILED] - click(itemlink): click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)
+
+
+2019-03-06 18:36:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-06 18:36:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+[[ATTACHMENT|D:\\Katlon Studio\\KatalonData\\Reports\\Test Suite for data driven\\20190306_183148\\1551877575505.png]]
+
+2019-03-06 18:36:15 - [MESSAGE][FAILED] - click(itemlink) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-06 18:35:24 - [TEST_CASE][FAILED] - Test Cases/Test1By Chirag: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-06 18:31:51 - [TEST_SUITE][FAILED] - Test Suite for data driven: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-06 18:31:51 - [TEST_SUITE][FAILED] - Test Suite for data driven: Test Cases/Test1By Chirag FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick' located by 'By.xpath: //h2[@data-attribute = 'mhgjg' and (text() = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris' or . = 'Schlage Z-Wave Connect Camelot Touchscreen Deadbolt with Built-In Alarm, Satin Nickel, BE469 CAM 619, Works with Alexa via SmartThings, Wink or Iris')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Test1By Chirag.run(Test1By Chirag:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551877308446.run(TempTestSuite1551877308446.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

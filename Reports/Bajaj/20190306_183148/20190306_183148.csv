@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Bajaj,Chrome 72.0.3626.119,,2019-03-06 18:31:50,2019-03-06 18:33:50,1m - 59.962s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Chrome 72.0.3626.119,,2019-03-06 18:31:50,2019-03-06 18:32:41,51.039s,FAILED
+"openBrowser(""https://www.amazon.com/"")",Chrome 72.0.3626.119,,2019-03-06 18:31:51,2019-03-06 18:32:02,11.248s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 72.0.3626.119,,2019-03-06 18:32:02,2019-03-06 18:32:03,1.410s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Chrome 72.0.3626.119,,2019-03-06 18:32:03,2019-03-06 18:32:06,2.798s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Chrome 72.0.3626.119,,2019-03-06 18:32:06,2019-03-06 18:32:09,2.731s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Chrome 72.0.3626.119,,2019-03-06 18:32:09,2019-03-06 18:32:09,0.142s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Chrome 72.0.3626.119,,2019-03-06 18:32:09,2019-03-06 18:32:09,0.047s,PASSED
+click(itemlink),Chrome 72.0.3626.119,,2019-03-06 18:32:09,2019-03-06 18:32:41,32.255s,FAILED
+,,,,,,
+Test Cases/Demo,Chrome 72.0.3626.119,,2019-03-06 18:32:41,2019-03-06 18:33:49,1m - 7.971s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-06 18:32:41,2019-03-06 18:32:44,3.038s,PASSED
+"navigateToUrl(""https://uat-pos--uat.cs72.force.com/FOS/login"")",Chrome 72.0.3626.119,,2019-03-06 18:32:44,2019-03-06 18:32:50,5.197s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-06 18:32:50,2019-03-06 18:32:52,2.082s,PASSED
+"setText(findTestObject(""Page_Login  FOS Community/input_Username_username""), ""cdprimedealer_fos@bfl.in"")",Chrome 72.0.3626.119,,2019-03-06 18:32:52,2019-03-06 18:32:52,0.150s,PASSED
+"setEncryptedText(findTestObject(""Page_Login  FOS Community/input_Password_pw""), ""3zsWnKN+YWTTdAG8/sekZA=="")",Chrome 72.0.3626.119,,2019-03-06 18:32:52,2019-03-06 18:32:52,0.151s,PASSED
+"click(findTestObject(""Page_Login  FOS Community/input_Password_Login""))",Chrome 72.0.3626.119,,2019-03-06 18:32:52,2019-03-06 18:32:53,1.132s,PASSED
+"click(findTestObject(""Object Repository/a_Search""))",Chrome 72.0.3626.119,,2019-03-06 18:32:53,2019-03-06 18:33:07,14.168s,PASSED
+"setText(findTestObject(""Page_Search Customer/input_Mobile Number (New Custo""), ""8201032019"")",Chrome 72.0.3626.119,,2019-03-06 18:33:07,2019-03-06 18:33:11,3.491s,PASSED
+"setText(findTestObject(""input_First Name (New Customer""), ""CDPrime"")",Chrome 72.0.3626.119,,2019-03-06 18:33:11,2019-03-06 18:33:11,0.123s,PASSED
+"click(findTestObject(""Object Repository/span_Confirm""))",Chrome 72.0.3626.119,,2019-03-06 18:33:11,2019-03-06 18:33:11,0.093s,PASSED
+"click(findTestObject(""button_Proceed as NTB""))",Chrome 72.0.3626.119,,2019-03-06 18:33:11,2019-03-06 18:33:17,5.457s,PASSED
+"click(findTestObject(""Object Repository/a_Show more actions""))",Chrome 72.0.3626.119,,2019-03-06 18:33:17,2019-03-06 18:33:49,32.719s,FAILED

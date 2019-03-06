@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for data driven,Firefox 65.0,Test Suite for data driven,2019-03-06 17:51:32,2019-03-06 17:55:57,4m - 25.057s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Firefox 65.0,,2019-03-06 17:51:33,2019-03-06 17:52:36,1m - 3.178s,FAILED
+"openBrowser(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:51:33,2019-03-06 17:51:53,20.062s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:51:53,2019-03-06 17:51:57,3.639s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Firefox 65.0,,2019-03-06 17:51:57,2019-03-06 17:52:00,2.580s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Firefox 65.0,,2019-03-06 17:52:00,2019-03-06 17:52:05,5.242s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Firefox 65.0,,2019-03-06 17:52:05,2019-03-06 17:52:05,0.084s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Firefox 65.0,,2019-03-06 17:52:05,2019-03-06 17:52:05,0.031s,PASSED
+click(itemlink),Firefox 65.0,,2019-03-06 17:52:05,2019-03-06 17:52:36,30.957s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Firefox 65.0,,2019-03-06 17:52:36,2019-03-06 17:53:27,50.720s,FAILED
+"openBrowser(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:52:36,2019-03-06 17:52:48,12.190s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:52:48,2019-03-06 17:52:50,1.739s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Firefox 65.0,,2019-03-06 17:52:50,2019-03-06 17:52:51,1.540s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Firefox 65.0,,2019-03-06 17:52:51,2019-03-06 17:52:56,4.439s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Firefox 65.0,,2019-03-06 17:52:56,2019-03-06 17:52:56,0.068s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Firefox 65.0,,2019-03-06 17:52:56,2019-03-06 17:52:56,0.019s,PASSED
+click(itemlink),Firefox 65.0,,2019-03-06 17:52:56,2019-03-06 17:53:27,30.698s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Firefox 65.0,,2019-03-06 17:53:27,2019-03-06 17:54:15,48.495s,FAILED
+"openBrowser(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:53:27,2019-03-06 17:53:39,11.901s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:53:39,2019-03-06 17:53:40,1.458s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Firefox 65.0,,2019-03-06 17:53:40,2019-03-06 17:53:42,1.444s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Firefox 65.0,,2019-03-06 17:53:42,2019-03-06 17:53:44,2.509s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Firefox 65.0,,2019-03-06 17:53:44,2019-03-06 17:53:44,0.041s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Firefox 65.0,,2019-03-06 17:53:44,2019-03-06 17:53:44,0.016s,PASSED
+click(itemlink),Firefox 65.0,,2019-03-06 17:53:44,2019-03-06 17:54:15,31.098s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Firefox 65.0,,2019-03-06 17:54:15,2019-03-06 17:55:05,49.324s,FAILED
+"openBrowser(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:54:15,2019-03-06 17:54:28,12.330s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:54:28,2019-03-06 17:54:29,1.674s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Firefox 65.0,,2019-03-06 17:54:29,2019-03-06 17:54:31,1.454s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Firefox 65.0,,2019-03-06 17:54:31,2019-03-06 17:54:34,2.864s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Firefox 65.0,,2019-03-06 17:54:34,2019-03-06 17:54:34,0.059s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Firefox 65.0,,2019-03-06 17:54:34,2019-03-06 17:54:34,0.013s,PASSED
+click(itemlink),Firefox 65.0,,2019-03-06 17:54:34,2019-03-06 17:55:05,30.904s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Firefox 65.0,,2019-03-06 17:55:05,2019-03-06 17:55:56,51.129s,FAILED
+"openBrowser(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:55:05,2019-03-06 17:55:18,13.940s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-06 17:55:18,2019-03-06 17:55:20,2.008s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Firefox 65.0,,2019-03-06 17:55:20,2019-03-06 17:55:22,1.425s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Firefox 65.0,,2019-03-06 17:55:22,2019-03-06 17:55:25,2.660s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Firefox 65.0,,2019-03-06 17:55:25,2019-03-06 17:55:25,0.072s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Firefox 65.0,,2019-03-06 17:55:25,2019-03-06 17:55:25,0.013s,PASSED
+click(itemlink),Firefox 65.0,,2019-03-06 17:55:25,2019-03-06 17:55:56,30.991s,FAILED
