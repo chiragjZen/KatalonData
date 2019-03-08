@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a7b4de09-a882-4210-95d5-6cd4c0e929d4</testCaseGuid>
+   <variable>
+      <defaultValue>'MP'</defaultValue>
+      <description></description>
+      <id>1b65e92c-768c-43e7-9e1a-d21558333691</id>
+      <masked>false</masked>
+      <name>Customer_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'8169324515'</defaultValue>
+      <description></description>
+      <id>cae4596d-89a4-4610-8955-84b7870fd3b5</id>
+      <masked>false</masked>
+      <name>Mobile_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>['Father\'s Name/Spouse Name', 'Mother\'s Name', 'Office Address Line 1', 'Office Address Line 2']</defaultValue>
+      <description></description>
+      <id>2fab76c7-7555-4e66-93a8-af4c018fc8ec</id>
+      <masked>false</masked>
+      <name>Header</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>ef2de0ab-a31a-49cc-a8e2-2e6171f332dc</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
 </TestCaseEntity>

@@ -235,7 +235,7 @@ WebUI.delay(6)
 
 WebUI.waitForElementVisible(findTestObject('div_Setup'), 60)
 
-WebUI.click(findTestObject('div_Setup'))
+WebUI.click(findTestObject('div_Setup'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('span_Developer Console'))
 

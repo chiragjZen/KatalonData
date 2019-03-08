@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>99ae31e4-8123-4581-af4f-4c2431c5a329</testCaseGuid>
    <variable>
-      <defaultValue>'Mpriya'</defaultValue>
+      <defaultValue>'MP'</defaultValue>
       <description></description>
       <id>142811bf-765b-40e4-baab-58b514a24454</id>
       <masked>false</masked>
       <name>Customer_name</name>
    </variable>
    <variable>
-      <defaultValue>'8569324515'</defaultValue>
+      <defaultValue>'8169324515'</defaultValue>
       <description></description>
       <id>d580504a-1bda-4a9d-916a-6c49d1d61d8f</id>
       <masked>false</masked>
