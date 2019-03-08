@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Bajaj,,,2019-03-06 20:03:24,2019-03-06 20:03:26,1.997s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,,,2019-03-06 20:03:24,2019-03-06 20:03:26,1.359s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",,,2019-03-06 20:03:25,2019-03-06 20:03:26,0.993s,ERROR
+,,,,,,
+Test Cases/Demo,,,2019-03-06 20:03:26,2019-03-06 20:03:26,0.415s,FAILED
+"openBrowser("""")",,,2019-03-06 20:03:26,2019-03-06 20:03:26,0.263s,FAILED

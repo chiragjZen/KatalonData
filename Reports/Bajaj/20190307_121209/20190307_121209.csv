@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Bajaj,Firefox 65.0,,2019-03-07 12:12:11,2019-03-07 12:14:20,2m - 9.308s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Firefox 65.0,,2019-03-07 12:12:11,2019-03-07 12:13:10,59.416s,FAILED
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",Firefox 65.0,,2019-03-07 12:12:11,2019-03-07 12:12:15,3.434s,PASSED
+"openBrowser("""")",Firefox 65.0,,2019-03-07 12:12:15,2019-03-07 12:12:23,8.194s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 65.0,,2019-03-07 12:12:23,2019-03-07 12:12:29,5.965s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Firefox 65.0,,2019-03-07 12:12:29,2019-03-07 12:12:33,4.138s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Firefox 65.0,,2019-03-07 12:12:33,2019-03-07 12:12:38,5.226s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Firefox 65.0,,2019-03-07 12:12:38,2019-03-07 12:12:38,0.139s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Firefox 65.0,,2019-03-07 12:12:38,2019-03-07 12:12:38,0.030s,PASSED
+click(itemlink),Firefox 65.0,,2019-03-07 12:12:38,2019-03-07 12:13:10,31.899s,FAILED
+,,,,,,
+Test Cases/Demo,Firefox 65.0,,2019-03-07 12:13:10,2019-03-07 12:14:19,1m - 8.673s,FAILED
+"openBrowser("""")",Firefox 65.0,,2019-03-07 12:13:10,2019-03-07 12:13:17,6.527s,PASSED
+"navigateToUrl(""https://uat-pos--uat.cs72.force.com/FOS/login"")",Firefox 65.0,,2019-03-07 12:13:17,2019-03-07 12:13:21,4.136s,PASSED
+delay(2),Firefox 65.0,,2019-03-07 12:13:21,2019-03-07 12:13:23,2.047s,PASSED
+"setText(findTestObject(""Page_Login  FOS Community/input_Username_username""), ""cdprimedealer_fos@bfl.in"")",Firefox 65.0,,2019-03-07 12:13:23,2019-03-07 12:13:23,0.127s,PASSED
+"setEncryptedText(findTestObject(""Page_Login  FOS Community/input_Password_pw""), ""3zsWnKN+YWTTdAG8/sekZA=="")",Firefox 65.0,,2019-03-07 12:13:23,2019-03-07 12:13:23,0.278s,PASSED
+"click(findTestObject(""Page_Login  FOS Community/input_Password_Login""))",Firefox 65.0,,2019-03-07 12:13:23,2019-03-07 12:13:37,13.343s,PASSED
+"click(findTestObject(""Object Repository/a_Search""))",Firefox 65.0,,2019-03-07 12:13:37,2019-03-07 12:13:37,0.311s,PASSED
+"setText(findTestObject(""Page_Search Customer/input_Mobile Number (New Custo""), ""8201032019"")",Firefox 65.0,,2019-03-07 12:13:37,2019-03-07 12:13:40,2.929s,PASSED
+"setText(findTestObject(""input_First Name (New Customer""), ""CDPrime"")",Firefox 65.0,,2019-03-07 12:13:40,2019-03-07 12:13:40,0.109s,PASSED
+"click(findTestObject(""Object Repository/span_Confirm""))",Firefox 65.0,,2019-03-07 12:13:40,2019-03-07 12:13:40,0.288s,PASSED
+"click(findTestObject(""button_Proceed as NTB""))",Firefox 65.0,,2019-03-07 12:13:40,2019-03-07 12:13:47,6.233s,PASSED
+"click(findTestObject(""Object Repository/a_Show more actions""))",Firefox 65.0,,2019-03-07 12:13:47,2019-03-07 12:14:19,32.189s,FAILED

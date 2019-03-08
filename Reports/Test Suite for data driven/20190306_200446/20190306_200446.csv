@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite for data driven,,Test Suite for data driven,2019-03-06 20:04:49,2019-03-06 20:04:52,2.760s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,,,2019-03-06 20:04:50,2019-03-06 20:04:52,1.998s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",,,2019-03-06 20:04:50,2019-03-06 20:04:52,1.373s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.116s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.063s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.077s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.050s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.075s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.051s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.070s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",,,2019-03-06 20:04:52,2019-03-06 20:04:52,0.048s,ERROR

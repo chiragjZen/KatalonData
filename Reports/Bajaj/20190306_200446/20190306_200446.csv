@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Bajaj,Chrome 72.0.3626.119,,2019-03-06 20:04:48,2019-03-06 20:05:00,11.940s,ERROR
+,,,,,,
+Test Cases/Test1By Chirag,Chrome 72.0.3626.119,,2019-03-06 20:04:49,2019-03-06 20:04:51,2.053s,ERROR
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",Chrome 72.0.3626.119,,2019-03-06 20:04:49,2019-03-06 20:04:51,1.577s,ERROR
+,,,,,,
+Test Cases/Demo,Chrome 72.0.3626.119,,2019-03-06 20:04:51,2019-03-06 20:05:00,9.029s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-06 20:04:51,2019-03-06 20:04:54,2.763s,PASSED
+"navigateToUrl(""https://uat-pos--uat.cs72.force.com/FOS/login"")",Chrome 72.0.3626.119,,2019-03-06 20:04:54,2019-03-06 20:04:58,3.860s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-06 20:04:58,2019-03-06 20:05:00,2.033s,PASSED
+"setText(findTestObject(""Page_Login  FOS Community/input_Username_username""), ""cdprimedealer_fos@bfl.in"")",Chrome 72.0.3626.119,,2019-03-06 20:05:00,2019-03-06 20:05:00,0.089s,FAILED

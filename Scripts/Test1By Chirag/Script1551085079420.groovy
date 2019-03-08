@@ -15,8 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.webui.keyword.builtin.ModifyObjectPropertyKeyword as ModifyObjectPropertyKeyword
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Platform as Platform
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.remote.DesiredCapabilities as DesiredCapabilities
+import org.openqa.selenium.remote.RemoteWebDriver as RemoteWebDriver
 
-WebUI.openBrowser('https://www.amazon.com/')
+WebDriver driver = new RemoteWebDriver(new URL('http://localhost:4444/wd/hub'), DesiredCapabilities.chrome())
+
+WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 

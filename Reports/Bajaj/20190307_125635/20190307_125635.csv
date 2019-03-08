@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Bajaj,Chrome 72.0.3626.119,,2019-03-07 12:56:36,2019-03-07 13:05:47,9m - 10.792s,FAILED
+,,,,,,
+Test Cases/Test1By Chirag,Chrome 72.0.3626.119,,2019-03-07 12:56:36,2019-03-07 13:04:40,8m - 3.147s,FAILED
+"driver = new org.openqa.selenium.remote.RemoteWebDriver(new java.net.URL(http://localhost:4444/wd/hub), org.openqa.selenium.remote.DesiredCapabilities.chrome())",Chrome 72.0.3626.119,,2019-03-07 12:56:37,2019-03-07 13:02:28,5m - 51.099s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-07 13:02:28,2019-03-07 13:03:53,1m - 25.005s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 72.0.3626.119,,2019-03-07 13:03:53,2019-03-07 13:03:59,6.223s,PASSED
+"for ([rownum = 1, rownum <= findTestData(""First Test/1st"").getRowNumbers(), (rownum++)])",Chrome 72.0.3626.119,,2019-03-07 13:03:59,2019-03-07 13:04:04,4.989s,PASSED
+"click(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/SearchIcon""))",Chrome 72.0.3626.119,,2019-03-07 13:04:04,2019-03-07 13:04:07,2.646s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(CONTROL, ""a""))",Chrome 72.0.3626.119,,2019-03-07 13:04:07,2019-03-07 13:04:07,0.087s,PASSED
+"itemlink = modifyObjectProperty(findTestObject(""Page_Customer Chirag/Page_Amazon.com alexa/ProductToClick""), ""data-attribute"", ""equals"", findTestData(""First Test/1st"").getValue(2, 1), true)",Chrome 72.0.3626.119,,2019-03-07 13:04:07,2019-03-07 13:04:07,0.029s,PASSED
+click(itemlink),Chrome 72.0.3626.119,,2019-03-07 13:04:07,2019-03-07 13:04:40,32.735s,FAILED
+,,,,,,
+Test Cases/Demo,Chrome 72.0.3626.119,,2019-03-07 13:04:40,2019-03-07 13:05:47,1m - 7.378s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-07 13:04:40,2019-03-07 13:04:43,3.002s,PASSED
+"navigateToUrl(""https://uat-pos--uat.cs72.force.com/FOS/login"")",Chrome 72.0.3626.119,,2019-03-07 13:04:43,2019-03-07 13:04:50,7.569s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-07 13:04:50,2019-03-07 13:04:52,2.015s,PASSED
+"setText(findTestObject(""Page_Login  FOS Community/input_Username_username""), ""cdprimedealer_fos@bfl.in"")",Chrome 72.0.3626.119,,2019-03-07 13:04:52,2019-03-07 13:04:53,0.197s,PASSED
+"setEncryptedText(findTestObject(""Page_Login  FOS Community/input_Password_pw""), ""3zsWnKN+YWTTdAG8/sekZA=="")",Chrome 72.0.3626.119,,2019-03-07 13:04:53,2019-03-07 13:04:53,0.158s,PASSED
+"click(findTestObject(""Page_Login  FOS Community/input_Password_Login""))",Chrome 72.0.3626.119,,2019-03-07 13:04:53,2019-03-07 13:04:54,1.571s,PASSED
+"click(findTestObject(""Object Repository/a_Search""))",Chrome 72.0.3626.119,,2019-03-07 13:04:54,2019-03-07 13:05:04,9.678s,PASSED
+"setText(findTestObject(""Page_Search Customer/input_Mobile Number (New Custo""), ""8201032019"")",Chrome 72.0.3626.119,,2019-03-07 13:05:04,2019-03-07 13:05:10,5.559s,PASSED
+"setText(findTestObject(""input_First Name (New Customer""), ""CDPrime"")",Chrome 72.0.3626.119,,2019-03-07 13:05:10,2019-03-07 13:05:10,0.143s,PASSED
+"click(findTestObject(""Object Repository/span_Confirm""))",Chrome 72.0.3626.119,,2019-03-07 13:05:10,2019-03-07 13:05:10,0.140s,PASSED
+"click(findTestObject(""button_Proceed as NTB""))",Chrome 72.0.3626.119,,2019-03-07 13:05:10,2019-03-07 13:05:15,4.945s,PASSED
+"click(findTestObject(""Object Repository/a_Show more actions""))",Chrome 72.0.3626.119,,2019-03-07 13:05:15,2019-03-07 13:05:47,32.226s,FAILED
